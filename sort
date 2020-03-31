@@ -1,0 +1,22 @@
+playboys = ['yechu','venky','henry','sri']
+playboys.sort()
+print(playboys)
+print(playboys[1:4])
+print(playboys[2:])
+print(playboys[:4])
+print(playboys[-3:])
+print(playboys[:-1])
+my_foods = ['pizza','burger','cornato']
+friend_foods = my_foods[1:]
+friend_foods = my_foods
+my_foods.append('kfc')
+friend_foods.append('ice cream')
+print("my favorite foods are: ")
+print(my_foods[1:])
+print("\n my friend's favorite foos are : ")
+print(friend_foods)
+cars = ['bmw','audi','toyota','subaru']
+cars.sort()
+print(cars)
+cars.reverse()
+print(cars)
