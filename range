@@ -1,0 +1,20 @@
+for value in range(1,5):
+   print(value)
+numbers = list(range(1,6))
+print(numbers)
+even_numbers = list(range(2,11,2))
+print(even_numbers)
+odd_numbers = list(range(1,100,2))
+print(odd_numbers)
+age = 19
+print("happy "+ str  (age) +"th birthday")
+squares = []
+for value in range(1,5): 
+   square = value**2
+   squares.append(square)
+
+print(squares)
+squares = [value**4 for value in range(1,11)]
+print(squares)
+cubes = [value**2 for value in range(1,11)]
+print(cubes)
