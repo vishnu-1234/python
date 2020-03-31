@@ -1,0 +1,14 @@
+motorcycles = ['honda','yamaha','suzuki','ducati']
+print(motorcycles)
+too_expensive = 'ducati'
+motorcycles.remove(too_expensive)
+print(motorcycles)
+print("\n a " + too_expensive.upper() + "is too expensive for me..")
+dimensions = (400,100)
+print("Original dimensions")
+for dimension in dimensions:
+    print(dimension)
+dimensions = (200,50)
+print("\nModify dimension")
+for dimension in dimensions:
+    print(dimension)
