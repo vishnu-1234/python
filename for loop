@@ -1,0 +1,30 @@
+dancers = ('deepi','monu','nivi','lallu')
+for dancer in dancers:
+   print( dancer.title() + " is a good dancer ...")
+   print("i want to see your next skill " +  dancer.title() + "\n")
+print("thanks for coming") 
+   
+requested_toppings = ['mushrooms','pepper','cheese' ]
+for requested_topping in requested_toppings:
+    print("you can add it one more " + requested_topping + ".")
+print(" ya here it is")
+
+requested_toppings = ['mushrooms','pepper','cheese' ]
+for requested_topping in requested_toppings: 
+    if requested_topping == 'pepper':
+	    print("sorry, we are out off green pepper right now.")
+else:
+       	print("you can add it one more " + requested_topping + ".")
+print(" ya here it is")	
+magicians = ['alice','david','carolina']
+for magician in magicians:
+   print(magician.title() + ", that was a great trick! ")
+   print(magician.title() + " what a magician .." + "\n" )
+   
+print(" thank you ")
+
+players = ['charles','martin','deepi','divi']
+print("the first three players in a team")
+for player in players[:3]:
+   print(player.title())
+   
