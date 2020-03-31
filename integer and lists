@@ -1,0 +1,21 @@
+bicycles = ['trek','cannodale','redline','specialized']
+print(bicycles)
+bicycles.append('ducati')
+bicycles.insert(-4,'vehicle')
+del bicycles[4]
+print(bicycles)
+motorcycles = []
+motorcycles.append('honda')
+motorcycles.append('yamaha')
+motorcycles.append('suzuki')
+print(motorcycles)
+motorcycles = ['fz','pulser','bullet']
+print(motorcycles)
+popped_motorcycles = motorcycles.pop()
+last_owned = motorcycles.pop()
+print(popped_motorcycles)
+print("the last motorcycles i owned was a " + last_owned.title() + "....")
+car =['honda','bmw','mercedes','audi']
+message = "my favourite car is " + car[1].upper()+"...."
+print(message)
+	
