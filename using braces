@@ -1,0 +1,88 @@
+message = {'color' : 'green','points': 5}
+print(message['color'])
+print(message['points'])
+
+
+# example
+
+vishnu_s = {'player':'basketball','subject':95}
+sport_s = vishnu_s['player']
+print(" my favourite game  is " + sport_s + " in sports channel  |_| ....")
+
+
+# you can also give the empty brace.. but it is necessary
+
+student_s = {}
+student_s['vishnu'] = 93
+student_s['rajesh'] = 95
+student_s['rakesh'] = 96
+print(student_s)
+
+
+student_s = {'srawan':98,'venkatesh':97}
+print("students")
+print("1.srawan    : " + str(student_s['srawan']))
+print("2.venkatesh : " + str(student_s['venkatesh']))
+
+
+
+# just using with chapter 2 and chapter 6(combining) and by using upper()
+
+lallu_n = {'color':'black'}
+print( " My favourite color is " + lallu_n['color'].upper() + "....")
+lallu_n = {'bike':'royal enfield'}
+print("i love the bike " + lallu_n['bike'].upper() + ". which is stealth black...")
+
+
+ 
+index = {'paper': 35,'page':70,'note':'tnpl'}
+print("Original paper: "+ str(index['paper']))
+if index['note'] == 'small':
+    sheet = 35
+elif index['note'] == 'large':
+    sheet = 37
+else:
+    sheet = 39
+index['paper'] = index['paper'] + sheet
+print("New paper: " + str(index['paper']))
+ 
+
+ 
+#same program but different variable and words
+ # i am gonna change the value of middle 
+ # present value = 30 , new value = 60
+ 
+people = {'poor':50,'middle': 30,'rich':20}
+print(" population in india")
+print(" 1. poor   : " + str(people['poor']))
+print(" 2. middle : " + str(people['middle']))
+print(" 3. rich   : " + str(people['rich']))
+if people['poor'] == ' high':
+    money = 13
+elif people['poor'] == 'low':
+    money = 20                       
+else:                                 
+    money = 30      
+people['middle'] = people['middle'] + money
+print("new middle: "+ str(people['middle']))
+	
+
+
+# to remove the variable and value from the braces
+
+engineer = {'csc': 12,'eee':13,'ece': 15}
+del engineer['ece']
+print(engineer)
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
