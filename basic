@@ -7,10 +7,10 @@ print(name.lower())
 print(name.upper())
 first__name = "vishnu"
 last_name = "lambo"
-full_name = first__name + last_name
-message = "yahoo! "+ full_name.lower()+ "!"
+full_name = first_name + last_name
+message = "yahoo! "+ full_name.lower() + "!"
 print(message)
 print("\ni am here looking for pyhton")
 print("\ttooday is my basic class about python")
-python2.7 
-print "Hello Python 2.7 world! 
+
+print ("Hello Python 2.7 world!) 
