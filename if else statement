@@ -6,8 +6,8 @@ for car in cars:
         print(car.title())
 		
  bikes = ['pulsar','kwasiki','efield','JAWA']
-
 for bike in bikes: 
+     if bike.upper() == "JAWA"
 	    print(bike.lower())
     else:
 	    print(bike.title())
@@ -15,9 +15,9 @@ for bike in bikes:
 answer = 17
 if answer != 45:
     print("that is not the correct answer.please try again!")
-    banned_users = ['andrew','caolina','david']
+    
+banned_users = ['andrew','caolina','david']
 user = 'marie'
-
 if user not in banned_users:
     print(user.title()+ ", you can post a response if you wish.")
  
@@ -39,7 +39,6 @@ else:
 	
 
 age = 22
-
 if age < 4:
     price = 0
 elif age < 15:
