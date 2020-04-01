@@ -1,0 +1,36 @@
+# actually this code is done in previous code only  one character can be use in previous code ,but in this  we can use two characters and two value
+
+favorite_languages = {'jen': 'python','sarah':'c','edward': 'ruby','phil': 'python'}
+for name, language in favorite_languages.items():
+    print(name.title() + "s favorite language is "+ language.title() + ".")
+	
+
+favorite_languages = {'jen':'python','sarah':'c','edward':'ruby','phil':'python'}
+friends = ['phil','sarah']
+for name in favorite_languages.keys():
+    print(name.title())
+if name in friends:
+    print(" hi" + name.title()+ ", I see your favorite language is " +  favorite_languages[name].title() + "!")
+ 
+ 
+               # sorting out the name in alpabetical order
+  
+favorite_languages = {'jen': 'python','sarah': 'c','edward': 'ruby','phil':'python',}
+for name in sorted(favorite_languages.keys()):
+    print(name.title() + ", thank you for taking the poll")
+	
+   
+               	# i m just using upper and sort case in this code
+  
+favorite_languages = {'jen':'python','sarah':'c','edward':'ruby','phil':'python'}
+for language in sorted (favorite_languages.values()):
+    print(language.upper() + ",is my favorite language")
+
+	
+  
+                # it going to show how many languages are presented
+
+favorite_languages = {'jen': 'python','sarah': 'c','edward': 'ruby','phil':'python','vichu':'c++','dini':'sas'}
+print(" the following languages have been mentioned: ")
+for language in set(favorite_languages.values()):
+    print(language.upper())
