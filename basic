@@ -1,11 +1,13 @@
 print("hello i am the king")
 message_2 = "hello boss"
-print(message_2)
+print(message_2)  
+
 name = "vishnulambo"
 print(name.title())
 print(name.lower())
 print(name.upper())
-first__name = "vishnu"
+
+first_name = "vishnu"
 last_name = "lambo"
 full_name = first_name + last_name
 message = "yahoo! "+ full_name.lower() + "!"
