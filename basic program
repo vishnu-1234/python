@@ -1,0 +1,31 @@
+message = input("tell me something,and i will repeat it back to you: ")
+print(message)
+
+name =   input("please enter your name : ")
+print("hello, " + name + "!")
+
+
+prompt = "if you are the king.."
+prompt += "\n what is your first name? "
+name = input(prompt)
+print("\n hello, " + name + "!")
+
+       # to find the height  
+height = input("how tall are you , in inches ? ")
+height = int(height)
+if height >= 36:
+    print("\n  you are tall enough to ride!")
+else:
+    print("\n you'll be able to ride when you are a little older.")
+	
+	
+	 # odd or even by using (%)
+number = input("Enter a number, and I'll tell you if it's even or odd: ")
+number = int(number)
+if number % 2 == 0: 
+    print("\nThe number " + str(number) + " is even.") 
+else:
+    print("\n the number " + str(number) + " is odd .")
+
+
+ 
